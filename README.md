@@ -3,7 +3,7 @@
 feldikey is a new approach for a quicktext system on linux/unix-like systems. At the moment, it is under heavy development and not suited for production use.
 
 ## Installation
-Please run the setup.sh script which will take care of all steps. It is needed in order for feldikey to run.
+Please run the setup.sh script which will take care of all steps. It is mandatory in order for feldikey to run, because it creates the local database and checks dependencies.
 
 Dependencies:
 - sqlite3
