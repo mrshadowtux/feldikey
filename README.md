@@ -32,3 +32,12 @@ At the moment, the following is missing:
 - A lot of custom character replacements in feldikey_send.sh
 - Validation inside all of the scripts to check if the user really entered correct values. If he didn't do this, he should get a usage list
 - Import quicktexts from other quicktext software for easy migration
+
+## Coding guidelines
+When working on a project with multiple people, it is important that everyone uses the same coding style. So here are the guidelines:
+
+- Use tabs for indenting, not spaces
+- In shell scripts always wrap variable names in {}. Example: ${content}
+- use meaningful variable names in English please. Only exception: ${i} in loops that do not use the variable inside for anything.
+
+Thank you very much!
