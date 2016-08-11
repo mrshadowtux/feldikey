@@ -28,4 +28,7 @@ echo "create table categories(id integer primary key autoincrement, title text);
 echo "create table cats_entries(id integer primary key autoincrement, catid integer, entryid integer);" | sqlite3 ~/.config/feldikey/feldikey.db
 
 
+echo "Making feldikey executable.."
+chmod +x ./*.sh
+
 echo "Everything is done, welcome to your personal feldikey setup. Please note that this is completely pre-alpha ;)"
