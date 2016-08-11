@@ -9,6 +9,7 @@ Dependencies:
 - sqlite3
 - xdotool
 - xev
+- X11 - This will *not* run on Mac OS X properly (only on X11 apps there which are very few)
 
 ## Testing
 - Please create an example entry with feldikey_add.sh first. The usage is:
@@ -24,9 +25,10 @@ Dependencies:
 
 - The text should now appear in leafpad
  
-## Still missing
+## Still missing (random order)
 At the moment, the following is missing:
 - Monitoring typed text to detect shortcuts while the user types in any application he likes to use feldikey for
 - An implementation for categories (If the user prefers a list style selection of his desired quicktext instead of shortcut texts)
 - A lot of custom character replacements in feldikey_send.sh
 - Validation inside all of the scripts to check if the user really entered correct values. If he didn't do this, he should get a usage list
+- Import quicktexts from other quicktext software for easy migration
