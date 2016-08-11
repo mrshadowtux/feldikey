@@ -19,7 +19,9 @@ Dependencies:
 
 - Now, please start Leafpad. In development phase this little graphics editor will simulate a browser for use later on
 - Great, now that you have leafpad open, let's try to send our first text into it:
+
   ./feldikey_send.sh $(./feldikey_query.sh shortcut "_welcome_")
+
 - The text should now appear in leafpad
  
 ## Still missing
