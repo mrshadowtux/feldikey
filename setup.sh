@@ -1,12 +1,11 @@
 #!/bin/bash
 # feldikey_setup.sh: Prepares everything for feldikey
 
-
 echo "Checking dependencies.."
 for dependency in sqlite3 xdotool xev
 do
 	echo -n "	${dependency}: "
-	if ! which ${dependency}
+	if ! which ${dependency} >/dev/null
 	then 
 		echo -n "missing. Please install it and try again!"
 		echo
